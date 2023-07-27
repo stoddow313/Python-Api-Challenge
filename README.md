@@ -1,2 +1,7 @@
 # Python-Api-Challenge
-Repo for homework due tonight
+
+## Background and conclusions: 
+
+This was an assignment where I had a set of cities and used the weather api with the geoapify api to  search criteria of random cities and create visualizations of those cities. Unfortunately in the VacationPy code, I was not able to run the final visualization as the criteria we had been given in the assignment resulted in none of the cities from my CSV file appearing in our dataframe. If you run through each criteria starting with Max Temp < 27 degrees, we only had 2 cities that matched that. Followed by 2 cities with a max temp > 21 degrees. Cloudiness equaling zero knocked us down to only 1 city matching the criteria, and finally Wind speed < 4.5 knocked us down to zero. I left the error code in to show that I could not do anything to prevent it without redoing the weather code and rewriting a csv file I had already written. I also had issues with cartopy not installing in my regular python environment, so I was forced to use an Anaconda environment for VacationPy. This was the only way I was able to run the  code as much as I did. 
+
+Code was done by following examples provided by UO Data Analytics. I did visit Stack Overflow, GitHub, and other installation guides as I was attempting to get Cartopy to work again. Unfortunately nothing I did worked, as it seems I somehow did something to my computer over the last couple days that deleted certain files and made it more difficult to finish this assignment. 
